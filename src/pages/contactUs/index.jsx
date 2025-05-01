@@ -6,8 +6,6 @@ import { FaRegHeart } from "react-icons/fa6";
 import Navbar from "./../../components/navbar/index.jsx";
 import Footer from "./../../components/footer/index.jsx";
 import line from "./../../home/contactUs_Line.svg";
-import instagram from "./../../home/instagram.svg";
-import linkedin from "./../../home/linkedin.svg";
 
 function Index() {
    const [isGreaterThan1000] = useMediaQuery("(min-width: 1000px)");
